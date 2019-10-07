@@ -8,7 +8,7 @@ import org.springframework.web.WebApplicationInitializer;
 /**
  * This class needed when deploy the application on WebLogic
  */
-@Configuration
+//@Configuration
 public class ServletInitializer extends SpringBootServletInitializer implements WebApplicationInitializer {
 
     @Override
